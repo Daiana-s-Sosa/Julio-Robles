@@ -5,27 +5,29 @@
 
 .contenedor{
     max-width: 980px;
+    font-family: 'Bodoni';
 }
 
 
 p{
-    padding: 6em;
-    margin: 6em;
-    background-color: black;
-    color: white;
+    padding: 5em;
+    margin: 5em;
+    font-size: 18px;
+    background-color: #C9BAC6;
+    border-style:outset;
+    color: black;
 }
 
 .botones button{
     display: inline;
     margin-top: 4em;
     margin-bottom: 0%;
-    padding-bottom: 1em;
 
 }
 
 .boton1{
     background-color: #4CAF50;
-    color: white;
+    color: black;
     padding: 19px 32px;
     text-align: center;
     text-decoration: none;
@@ -40,8 +42,8 @@ p{
 
 .boton2{
     background-color: #f44336;
-    color: white;
-    padding: 19px 32px;
+    color: black;
+    padding: 20px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -54,7 +56,7 @@ p{
 
 .boton3{
     background-color: #ff9000;
-    color: white;
+    color: black;
     padding: 19px 32px;
     text-align: center;
     text-decoration: none;
