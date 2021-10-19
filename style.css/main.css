@@ -4,22 +4,24 @@
 }
 
 .contenedor{
-    max-width: 980px;
-    font-family: 'Bodoni';
+    margin: 0 0 0 1em;
+    font-family: 'Orbitron';
 }
 
 
 p{
-    padding: 5em;
-    margin: 5em;
-    font-size: 18px;
+    padding: 0;
+    margin: 2em 0 0 0.5em;
+    font-size: 2.5em;
+    font-weight: 700;
     background-color: #C9BAC6;
-    border-style:outset;
+    border-width: 10px;
+    border-style:inset;
+    border-radius: 15px;
     color: black;
 }
 
 .botones button{
-    display: inline;
     margin-top: 4em;
     margin-bottom: 0%;
 
@@ -35,6 +37,8 @@ p{
     font-size: 20px;
     margin: 4px 2px;
     border-radius: 15px;
+    border-width: 8px;
+    border-style:inset;
     cursor: pointer;
 }
 		 
@@ -43,13 +47,16 @@ p{
 .boton2{
     background-color: #f44336;
     color: black;
-    padding: 20px 40px;
+    padding: 20px 45px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
     margin: 4px 2px;
     border-radius: 15px;
+    border-width: 10px;
+    border-width: 8px;
+    border-style: inset;
     cursor: pointer;
 
 }
@@ -57,13 +64,16 @@ p{
 .boton3{
     background-color: #ff9000;
     color: black;
-    padding: 19px 32px;
+    padding: 20px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
     margin: 4px 2px;
     border-radius: 15px;
+    border-width: 10px;
+    border-width: 8px;
+    border-style: inset;
     cursor: pointer;
 }
    
