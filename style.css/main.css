@@ -6,15 +6,15 @@
 .contenedor{
     margin: 0 0 0 1em;
     font-family: 'Orbitron';
+
 }
-
-
-p{
+.pantalla{
+    height: 50%;
     padding: 0;
     margin: 2em 0 0 0.5em;
     font-size: 2.5em;
     font-weight: 700;
-    background-color: #C9BAC6;
+    background-color: #968C94;
     border-width: 10px;
     border-style:inset;
     border-radius: 15px;
@@ -41,7 +41,10 @@ p{
     border-style:inset;
     cursor: pointer;
 }
-		 
+
+.boton1:hover{
+    background: #3B8A3E;
+}
 
 
 .boton2{
@@ -58,11 +61,13 @@ p{
     border-width: 8px;
     border-style: inset;
     cursor: pointer;
-
 }
 
+.boton2:hover{
+    background-color: #C03B30;
+}
 .boton3{
-    background-color: #ff9000;
+    background-color: #FFFF69;
     color: black;
     padding: 20px 40px;
     text-align: center;
@@ -76,4 +81,8 @@ p{
     border-style: inset;
     cursor: pointer;
 }
-   
+
+.boton3:hover{
+    background-color: #FFE83F;
+
+}
